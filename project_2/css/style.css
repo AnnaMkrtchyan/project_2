@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 35px;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-search{
+    background-color: lightgreen;
+    color: white;
+}
+.mt100{
+    margin-top: 100px;
+}
+.mb100{
+    margin-bottom: 100px;
+}
+.text70 {
+    font-size: 70px;
+    margin: 40px 0;
+}
+/* */
+
+.bg1 {
+    background-image: url('../img/a.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+ 
+h2 {
+    font-size: 45px;;
+}
+
+/*--------*/
+.dnone{
+    display: none;
+}
+.serv{
+    font-size: 40px;
+    position: relative;
+}
+.serv span {
+    right: 90px;
+    top: 10px;
+    position: absolute;
+    font-weight: 600;
+}
+.fa-home {
+    border: 5px solid lightgreen;
+}
+
+.read{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* */
+.prop {
+    position: relative;
+}
+.font40{
+    font-size: 40px;
+}
+.prop1{
+    position: absolute;
+    bottom:0;
+}
+.rent {
+    border:2px solid green;
+    border-radius: 20px;
+    color:white;
+}
+.prop:hover prop1{
+    transition: all 0.5s ease;
+    transform: translateY(20px)
+}
+
+/* */
+.agent{
+    height: 400px;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    position: relative;
+}
+.agent1{
+    position: absolute;
+    
+}
+.agent:hover .agent1{
+    display: block;
+    transition: all 0.7s ease;
+    background-color: lightgreen;
+    transition: all 0.2s ease;
+    height: 400px;
+    width:100%;
+    opacity: 0.8;
+}
+
+.font25{
+    font-size: 25px;
+}
+
+.textbold {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* */
+.news {
+    position: relative;
+}
+.news1{
+    position: absolute;
+    bottom:0;
+    color: white;
+}
+.news1 p{
+    font-size:28px;
+    font-weight: 600;
+}
+.zoom{
+    overflow:hidden;
+}
+.zoom img {
+    transition: transform 2s ease;
+}
+.zoom:hover img {
+    transform:scale(1.2);
+}
+.house{
+    background-color: aqua;
+    border-radius: 20px;
+    color:black;
+}
+.house:hover{
+    cursor: pointer;
+}
+h2 {
+    font-size: 42px;
+}
+/*----------------- */
+footer {
+    background-color: lightgrey;
+    padding: 50px 0;
+}
+
+
+p {
+   margin: 0; 
+}
+
+.company-links {
+    list-style: none;
+}
+.company-links li{
+    font-size: 17px;
+    padding-bottom: 6px;
+}
+.company-links li::before{
+    content: ">";
+    color: green;
+    margin-right: 8px;
+}
+.company-links li:hover {
+    color: forestgreen;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.footer-menu ul li a {
+    font-size: 17px;
+    color:black;
+}
+
+.footer-icons li a{
+    color: black;
+}
+.footer-menu ul li a:hover{
+    text-decoration: none;
+    color: darkgreen;
+    transition: all 0.5s ease;
+}
+/*----------------*/
+@media (min-width: 320px)  and (max-width: 576px) { 
+    .mb100{
+        margin-bottom: 50px;
+    }
+    .mt100 {
+        margin-top: 50px;
+    }
+    .mb30 {
+        margin-bottom: 30px;
+    }
+    .serv{
+        font-size: 30px;
+        position: relative;
+    }
+    .serv span {
+        right: 135px;
+        top: 10px;
+        position: absolute;
+        font-weight: 600;
+    }
+   
+}
+
+@media (min-width: 576px)  and (max-width: 768px) { 
+    .mb100{
+        margin-bottom: 70px;
+    }
+    .mt100 {
+        margin-top: 70px;
+    }
+
+    .mb-30{
+        margin-bottom: 30px;
+    }
+    .font40{
+        font-size: 25px;
+    }
+    
+    .news1 p{
+        font-size:20px;
+    }
+    .center{
+        text-align: center;
+    }
+    
+    .test3{
+        justify-content: center;
+    }
+    .serv{
+        font-size: 35px;
+        position: relative;
+    }
+    .serv span {
+        right: 270px;
+        top: 10px;
+        position: absolute;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px)  and (max-width: 992px) { 
+    .serv{
+        font-size: 35px;
+        position: relative;
+    }
+    .serv span {
+        right: -20px;
+        top: 10px;
+        position: absolute;
+        font-weight: 600;
+    }
+}
